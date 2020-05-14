@@ -29,7 +29,7 @@ Variables
           
 There is also a more accurate method, this is where you sum up the value in watts per square meters for every hour of the day and then multiply the sum by 0.0036 to get the amount of megajoules per square meter.
           
-          1. sum of: solar radiation 1 a.m. + 2 a.m. + ... 11 p.m. + 12 a.m. 
+          1. sum of: solar radiation 1 a.m. + 2 a.m. + ... + 11 p.m. + 12 a.m. 
           -> In our example the sum equals 7500
           
           2. multiply the sum by 0.0036 
