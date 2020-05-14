@@ -9,11 +9,11 @@ The calculations are for the daily requirements. What I usually do is wait until
 Variables
 =========
 
-1. Dew point: This variable has the unit of degrees celsius, enter the whole number or decimal as input and convert from fahrenheit if necessary.
+1. **Dew point**: This variable has the unit of **degrees celsius**, enter the whole number or decimal as input and convert from fahrenheit if necessary.
 
-2. Temperature: This is also in degrees celsius in whole or decimal numbers.
+2. **Temperature**: This is also in **degrees celsius** in whole or decimal numbers.
 
-3. Solar radiation: This is a bit more difficult, the units are megajoules per square meter per day. If you found this, then it is straightforward. However, it is often saved in watts per square meter, this equals one joule per square meter per second. So to convert from watts per square meter you need to multiply by 3600 and then multiply with the hours of daylight on the day of measurement.
+3. **Solar radiation**: This is a bit more difficult, the units are **megajoules per square meter per day**. If you found this, then it is straightforward. However, it is often saved in watts per square meter, this equals one joule per square meter per second. So to convert from watts per square meter you need to multiply by 3600 and then multiply with the hours of daylight on the day of measurement.
 
           Example: 500 watts per square meter = 500 joules per second per square meter
           This results in 27 megajoules per square meter per day
@@ -35,15 +35,15 @@ There is also a more accurate method, this is where you sum up the value in watt
           2. multiply the sum by 0.0036 
           -> 7500 * 0.0036 = 27 megajoules per square meter per day
 
-4. Wind speed: This is measured in kilometers per hour and needs to be converted if you have it in meters per second or miles per hour.
+4. **Wind speed**: This is measured in **kilometers per hour** and needs to be converted if you have it in meters per second or miles per hour.
 
-5. Day of year: This asks the calendar day with January 1st as day 1, an example would be May 4th 2020 is 125.
+5. **Day of year**: This asks the calendar day with January 1st as day 1, an example would be May 4th 2020 is 125.
 
-6. Altitude: This asks for the number of meters above sealevel of your location of measurement, conversion is needed from feet or kilometer.
+6. **Altitude**: This asks for the number of **meters** above sealevel of your location of measurement, conversion is needed from feet or kilometer.
 
-7. Latitude: This is asked as a decimal value for your location, sometimes it is noted in degrees so you would need to convert it.
+7. **Latitude**: This is asked as a **decimal** value for your location, sometimes it is noted in degrees so you would need to convert it.
 
-8. Rainfall: This decimal number is the amount of rain on the day of measurement in liters per square meter or milimeters per square meter. It is the same unit as the result for irrigating your crop.
+8. **Rainfall**: This decimal number is the amount of rain on the day of measurement in **liters per square meter** or milimeters per square meter. It is the same unit as the result for irrigating your crop.
 
 Results
 =======
